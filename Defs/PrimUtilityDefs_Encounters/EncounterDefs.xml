@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+
+
+
+  <PRimUtility.EncounterDef>
+  		<defName>testEncounterA</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>TestSpawnerA</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>2</encounterLevel>
+        <SpawnSpread>1</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(1,0,1)</roomSize>
+ <!-- LabyrinthDef.pathwidth < RoomSize.xy <= 2*LabyrinthDef.pathwidth-->
+  </PRimUtility.EncounterDef>
+  
+  <PRimUtility.EncounterDef>
+  		<defName>testEncounterB</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>TestSpawnerB</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>4</encounterLevel>
+        <SpawnSpread>1</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(1,0,1)</roomSize>
+  </PRimUtility.EncounterDef>
+	
+	  <PRimUtility.EncounterDef>
+  		<defName>testEncounterC</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>TestSpawnerC</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>6</encounterLevel>
+        <SpawnSpread>1</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(1,0,1)</roomSize>
+  </PRimUtility.EncounterDef>
+  
+    <PRimUtility.EncounterDef>
+  		<defName>testEncounterD</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>TestSpawnerD</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		</lootSpawnerNames>
+        <encounterLevel>8</encounterLevel>
+        <SpawnSpread>1</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(1,0,1)</roomSize>
+  </PRimUtility.EncounterDef>
+  
+    <PRimUtility.EncounterDef>
+  		<defName>testEncounterE</defName>
+		<label>testEncounter</label>
+        <enemySpawnerNames>
+			<li>TestSpawnerE</li>
+		</enemySpawnerNames>
+        <lootSpawnerNames>
+		<li>TestLootA</li>
+		</lootSpawnerNames>
+        <encounterLevel>10</encounterLevel>
+        <SpawnSpread>1</SpawnSpread>
+        <makeRoom>false</makeRoom>
+         <roomSize>(1,0,1)</roomSize>
+  </PRimUtility.EncounterDef>
+   
+  </Defs>

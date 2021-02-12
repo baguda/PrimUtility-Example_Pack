@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  	<MapGeneratorDef Name="LabyrinthMap">
+	<defName>LabyrinthMap</defName>
+		<genSteps>
+			<li>FindPlayerStartSpot</li>
+			<li>ElevationFertility</li>
+			<li>Caves</li>
+			<li>RocksFromGrid</li>
+			<li>Terrain</li>
+			<!--li>CavesTerrain</li-->
+			<li>RockChunks</li>
+			<li>Labyrinth</li>
+			<li>Fog</li>
+		</genSteps>
+	</MapGeneratorDef>
+  
+  	<GenStepDef>
+	<defName>Labyrinth</defName>
+	<order>501</order>
+	<genStep Class="PRimUtility.GenStep_Labyrinth" />
+	</GenStepDef>
+  
+  
+
+</Defs>

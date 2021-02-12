@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenPartDef>
+    <defName>PrimLabyrinth</defName>
+    <label>A Linked Labyrinth</label>
+    <scenPartClass>PRimUtility.Scenarios_Labyrinth</scenPartClass>
+    <category>StartingImportant</category>
+    <selectionWeight>1.0</selectionWeight>
+    <summaryPriority>999</summaryPriority>
+	<modExtensions>
+            <li Class="PRimUtility.Labyrinth_Scen_Extension">
+                <TargetBiome></TargetBiome>
+				<StepsAway>200</StepsAway>
+				<LabyrinthDefName>ExampleLabyrinthL</LabyrinthDefName>
+				<useTargetBiome>false</useTargetBiome>
+            </li>
+    </modExtensions>
+  </ScenPartDef>
+  
+
+  <ScenPartDef>
+    <defName>PrimLabyrinth2</defName>
+    <label>A Basic Labyrinth</label>
+    <scenPartClass>PRimUtility.Scenarios_Labyrinth</scenPartClass>
+    <category>StartingImportant</category>
+    <selectionWeight>1.0</selectionWeight>
+    <summaryPriority>999</summaryPriority>
+	<modExtensions>
+            <li Class="PRimUtility.Labyrinth_Scen_Extension">
+                <TargetBiome></TargetBiome>
+				<StepsAway>200</StepsAway>
+				<LabyrinthDefName>ExampleLabyrinth</LabyrinthDefName>
+            </li>
+    </modExtensions>
+  </ScenPartDef>
+</Defs>

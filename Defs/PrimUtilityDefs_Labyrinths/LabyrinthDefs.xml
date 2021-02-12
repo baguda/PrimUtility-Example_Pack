@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PRimUtility.LabyrinthDef>
+		<defName>ExampleLabyrinth</defName>
+		<label>ExampleLabyrinth</label>
+
+		<isFilled>false</isFilled>
+        <isWalled>true</isWalled>
+        <isOutlined>false</isOutlined>
+        <isRoofed>true</isRoofed>
+        <isShellRoofed>false</isShellRoofed>
+        <isShellFloored>false</isShellFloored>
+        <isCaveLike>true</isCaveLike>
+        <isInZDir>true</isInZDir>
+        <isInPosDir>true</isInPosDir>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+        <isWalkIn>true</isWalkIn>
+        <isWalkOut>true</isWalkOut>
+        <isOutDoored>false</isOutDoored>
+		<isSegmented>false</isSegmented>
+        <UseBlockFloors>true</UseBlockFloors>
+        <SpaceCorner>(100,0,100)</SpaceCorner>		<!-- (x,z) location of min x and z values for the rectangular area of labyrinth -->
+        <SpaceVector>(199,0,199)</SpaceVector>		<!-- (x,z) location of max x and z values for the rectangular area of labyrinth  -->
+        <PathWidth>2</PathWidth>
+        <BlockDefName>Slate</BlockDefName>
+        <FloorDefName>TileSlate</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>BlocksSandstone</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>Jade</DoorStuffDefName>
+        <encounterDefNames>
+			<li>testEncounterA</li>
+			<li>testEncounterB</li>
+			<li>testEncounterC</li>
+			<li>testEncounterD</li>
+			<li>testEncounterE</li>
+		</encounterDefNames>
+        <lootDefNames>
+			<li>testEncounter</li>
+		</lootDefNames>
+        <MapSize>(300,1,300)</MapSize>
+        <WorldObjName>ExampleMapParent</WorldObjName>
+		<IsLinked>false</IsLinked>
+		<LinkedLabyrinthDefNames>
+		<li></li>
+		</LinkedLabyrinthDefNames>
+        
+  </PRimUtility.LabyrinthDef>
+  
+  <PRimUtility.LabyrinthDef>
+		<defName>ExampleLabyrinthL</defName>
+		<label>ExampleLabyrinth</label>
+
+		<isFilled>false</isFilled>
+        <isWalled>true</isWalled>
+        <isOutlined>true</isOutlined>
+        <isRoofed>false</isRoofed>
+        <isShellRoofed>false</isShellRoofed>
+        <isShellFloored>false</isShellFloored>
+        <isCaveLike>true</isCaveLike>
+        <isInZDir>true</isInZDir>
+        <isInPosDir>true</isInPosDir>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>true</isOutPosDir>
+        <isWalkIn>true</isWalkIn>
+        <isWalkOut>true</isWalkOut>
+        <isOutDoored>true</isOutDoored>
+        <UseBlockFloors>false</UseBlockFloors>
+        <SpaceCorner>(1,0,1)</SpaceCorner>		<!-- (x,z) location of min x and z values for the rectangular area of labyrinth -->
+        <SpaceVector>(150,0,150)</SpaceVector>		<!-- (x,z) location of max x and z values for the rectangular area of labyrinth  -->
+        <PathWidth>1</PathWidth>
+        <BlockDefName>Wall</BlockDefName>
+        <FloorDefName>TileSandstone</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>WoodLog</BlockStuffDefName>
+        <FloorBlockDefName>FineTileSlate</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+        <encounterDefNames>
+			<li>testEncounterA</li>
+			<li>testEncounterB</li>
+			<li>testEncounterC</li>
+			<li>testEncounterD</li>
+			<li>testEncounterE</li>
+		</encounterDefNames>
+        <lootDefNames>
+			<li>testEncounter</li>
+		</lootDefNames>
+        <MapSize>(300,1,300)</MapSize>
+        <WorldObjName>ExampleMapParent</WorldObjName>
+
+        
+		<IsLinked>true</IsLinked>
+		<LinkedLabyrinthDefNames>
+		<li>ExampleLabyrinthLinked</li>
+		</LinkedLabyrinthDefNames>
+        
+  </PRimUtility.LabyrinthDef>
+  
+   <PRimUtility.LabyrinthDef>
+		<defName>ExampleLabyrinthLinked</defName>
+		<label>ExampleLabyrinth</label>
+
+		<isFilled>true</isFilled>
+        <isWalled>true</isWalled>
+        <isOutlined>true</isOutlined>
+        <isRoofed>false</isRoofed>
+        <isShellRoofed>true</isShellRoofed>
+        <isShellFloored>false</isShellFloored>
+        <isCaveLike>false</isCaveLike>
+        <isInZDir>true</isInZDir>
+        <isInPosDir>false</isInPosDir>
+        <isOutZDir>false</isOutZDir>
+        <isOutPosDir>false</isOutPosDir>
+        <isWalkIn>true</isWalkIn>
+        <isWalkOut>true</isWalkOut>
+		
+        <isOutDoored>false</isOutDoored>
+		
+        <UseBlockFloors>false</UseBlockFloors>
+
+        <SpaceCorner>(150,0,150)</SpaceCorner>		<!-- (x,z) location of min x and z values for the rectangular area of labyrinth -->
+        <SpaceVector>(299,0,299)</SpaceVector>		<!-- (x,z) location of max x and z values for the rectangular area of labyrinth  -->
+        <PathWidth>1</PathWidth>
+        <BlockDefName>Wall</BlockDefName>
+        <FloorDefName>TileSandstone</FloorDefName>
+        <DoorDefName>Door</DoorDefName>
+        <BlockStuffDefName>WoodLog</BlockStuffDefName>
+        <FloorBlockDefName>WaterDeep</FloorBlockDefName>
+        <DoorStuffDefName>WoodLog</DoorStuffDefName>
+        <encounterDefNames>
+			<li>testEncounterA</li>
+			<li>testEncounterB</li>
+			<li>testEncounterC</li>
+			<li>testEncounterD</li>
+			<li>testEncounterE</li>
+		</encounterDefNames>
+        <lootDefNames>
+			<li>testEncounter</li>
+		</lootDefNames>
+        <MapSize>(100,1,100)</MapSize>
+        <WorldObjName>ExampleMapParent</WorldObjName>
+
+        
+		<IsLinked>false</IsLinked>
+		<LinkedLabyrinthDefNames>
+		
+		</LinkedLabyrinthDefNames>
+        
+  </PRimUtility.LabyrinthDef>
+   
+  </Defs>

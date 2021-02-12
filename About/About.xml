@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>PrimUtility - Example Pack</name> <!-- Name in mod list -->
+  <packageId>Nolabritt.PrimUtilityEP</packageId> <!-- author.modName --> 
+  <author>Nolabritt</author>
+  <!--
+  <url>
+  -Text Hyperlink-
+  </url>
+  -->
+  <supportedVersions>
+    <li>1.1</li>
+	<li>1.2</li>
+  </supportedVersions>
+  
+<modDependencies>
+    <li>
+      <packageId>Nolabritt.PrimUtility</packageId>
+      <displayName>PrimUtility</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2392213176</steamWorkshopUrl>
+	<!--li>
+	<packageId></packageId>
+      <displayName></displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/######</steamWorkshopUrl>
+	</li-->
+  </modDependencies>
+
+  <!--
+  <loadAfter>
+	<li></li>
+  </loadAfter>
+  -->
+ <description>
+  A collection of examples and code for using the PrimUtility Mod with XML scripts. 
+
+</description>
+
+</ModMetaData>

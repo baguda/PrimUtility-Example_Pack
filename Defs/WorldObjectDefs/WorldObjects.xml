@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<WorldObjectDef>
+		<defName>ExampleMapParent</defName>
+		<label>ExampleMapParent</label>
+		<description>One of what could be many, many moons orbiting this rimworld.</description>
+		<worldObjectClass>MapParent</worldObjectClass>
+		<texture>dev/stairsdown2</texture>
+		<useDynamicDrawer>false</useDynamicDrawer>
+		<expandingIcon>true</expandingIcon>
+		<expandingIconTexture>dev/stairsdown2</expandingIconTexture>
+		<mapGenerator>LabyrinthMap</mapGenerator>
+		<expandingIconPriority>6</expandingIconPriority>
+		<comps>
+			<li Class="WorldObjectCompProperties_Abandon" />
+		</comps>
+	</WorldObjectDef>
+
+</Defs>
