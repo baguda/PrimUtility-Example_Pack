@@ -18,8 +18,7 @@
         <isWalkIn>true</isWalkIn>
         <isWalkOut>true</isWalkOut>
         <isOutDoored>false</isOutDoored>
-		<isSegmented>false</isSegmented>
-        <UseBlockFloors>true</UseBlockFloors>
+        <UseBlockFloors>false</UseBlockFloors>
         <SpaceCorner>(100,0,100)</SpaceCorner>		<!-- (x,z) location of min x and z values for the rectangular area of labyrinth -->
         <SpaceVector>(199,0,199)</SpaceVector>		<!-- (x,z) location of max x and z values for the rectangular area of labyrinth  -->
         <PathWidth>2</PathWidth>
@@ -45,7 +44,9 @@
 		<LinkedLabyrinthDefNames>
 		<li></li>
 		</LinkedLabyrinthDefNames>
+		<TargetBiome>Desert</TargetBiome>
         
+        <StepsAway>50</StepsAway>
   </PRimUtility.LabyrinthDef>
   
   <PRimUtility.LabyrinthDef>
@@ -95,6 +96,8 @@
 		<li>ExampleLabyrinthLinked</li>
 		</LinkedLabyrinthDefNames>
         
+        <StepsAway>100</StepsAway>
+		<TargetBiome>Tundra</TargetBiome>
   </PRimUtility.LabyrinthDef>
   
    <PRimUtility.LabyrinthDef>
@@ -138,7 +141,7 @@
         <lootDefNames>
 			<li>testEncounter</li>
 		</lootDefNames>
-        <MapSize>(100,1,100)</MapSize>
+        <MapSize>(300,1,300)</MapSize>
         <WorldObjName>ExampleMapParent</WorldObjName>
 
         
@@ -146,7 +149,8 @@
 		<LinkedLabyrinthDefNames>
 		
 		</LinkedLabyrinthDefNames>
-        
+        <StepsAway>10</StepsAway>
+		<TargetBiome>Desert</TargetBiome>
   </PRimUtility.LabyrinthDef>
    
   </Defs>

@@ -345,19 +345,25 @@
 			<li Class="PRimUtility.CompProperties_LabyrinthKey" >
 				<LabyrinthDefNameQueue>
 					<li>ExampleLabyrinth</li>
+					<li>ExampleLabyrinthL</li>
+					<li>ExampleLabyrinthLinked</li>
 				</LabyrinthDefNameQueue>
+				<QueueRandom>true</QueueRandom>
 				<LabyrinthDistances>
 					<li>5</li>
 				</LabyrinthDistances>
-				<UseTargetBiome>false</UseTargetBiome>
-				<CycleLabyrinths>false</CycleLabyrinths>
-				<targetBiome>null</targetBiome>				
+				<UseTargetBiome>true</UseTargetBiome>
+				<CycleLabyrinths>true</CycleLabyrinths>
+				<targetBiome>Desert</targetBiome>		
+				<ButtonGraphicPath>dev/KeyIcon</ButtonGraphicPath>
+				<ButtonLabel>Find New Labyrinth</ButtonLabel>
+				<ButtonDesc>This thing uses the power of something else to make labyrinths!</ButtonDesc>				
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>2000</basePowerConsumption>
+				<basePowerConsumption>0</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Mannable">
 				<manWorkType>Violent</manWorkType>

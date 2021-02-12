@@ -10,8 +10,7 @@
     <summaryPriority>999</summaryPriority>
 	<modExtensions>
             <li Class="PRimUtility.Labyrinth_Scen_Extension">
-                <TargetBiome></TargetBiome>
-				<StepsAway>200</StepsAway>
+
 				<LabyrinthDefName>ExampleLabyrinthL</LabyrinthDefName>
 				<useTargetBiome>false</useTargetBiome>
             </li>
@@ -28,8 +27,7 @@
     <summaryPriority>999</summaryPriority>
 	<modExtensions>
             <li Class="PRimUtility.Labyrinth_Scen_Extension">
-                <TargetBiome></TargetBiome>
-				<StepsAway>200</StepsAway>
+				<useTargetBiome>false</useTargetBiome>
 				<LabyrinthDefName>ExampleLabyrinth</LabyrinthDefName>
             </li>
     </modExtensions>
